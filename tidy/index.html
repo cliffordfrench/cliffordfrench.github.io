@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Tidy your code - Pun Generator</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Tidy your code";
+    var mkdocs_page_input_path = "tidy.md";
+    var mkdocs_page_url = "/tidy/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../about/" class="icon icon-home"> Pun Generator</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../about/">About</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../planning/">Planning</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../getting_started/">Getting Started</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../start_coding/">Start Coding</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../first_test/">First Test</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../code_the_app/">Code the App - 1</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../code_the_app-2/">Code the App - 2</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../test_the_app/">Test the App</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Tidy your code</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#tidy-your-code">Tidy Your Code</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#there-are-rules-or-at-least-conventions">There are Rules - or at least Conventions</a></li>
+        
+            <li><a class="toctree-l3" href="#check-your-code">Check Your Code</a></li>
+        
+            <li><a class="toctree-l3" href="#error-when-trying-to-run-flake8">Error when trying to run flake8</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../about/">Pun Generator</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../about/">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Tidy your code</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="tidy-your-code">Tidy Your Code</h1>
+<h2 id="there-are-rules-or-at-least-conventions">There are Rules - or at least Conventions</h2>
+<p>Just as there are rules for writing good English, so there are rules that most developers follow for writing good Python.</p>
+<p>They are set out in a document called PEP8.</p>
+<h2 id="check-your-code">Check Your Code</h2>
+<p>You can use a type of program called a pylinter to check your code. One example is flake8.</p>
+<p>In your directory, enter</p>
+<pre><code>flake8 suzypuns
+</code></pre>
+<p>or whatever you called your file.</p>
+<p>You will see comments on where your code does not follow the best practices in Python. Try to correct your code and keep running </p>
+<pre><code>flake8 suzypuns
+</code></pre>
+<p>until you see no output when you run this command.</p>
+<h2 id="error-when-trying-to-run-flake8">Error when trying to run flake8</h2>
+<p>If you have not got flake8 installed, go to a terminal (Alt-Ctrl-T) and enter </p>
+<pre><code>sudo apt-get update
+sudo apt-get install flake8
+</code></pre>
+<p>You will then see flake8 installed. sudo makes you the superuser, like the administrator in Windows.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../test_the_app/" class="btn btn-neutral" title="Test the App"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../test_the_app/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/require.js"></script>
+      <script src="../search/search.js"></script>
+
+</body>
+</html>

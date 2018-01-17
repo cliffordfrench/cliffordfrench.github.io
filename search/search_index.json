@@ -1,0 +1,169 @@
+{
+    "docs": [
+        {
+            "location": "/about/",
+            "text": "About the Joker App\n\n\nWritten by C French for Year 8.",
+            "title": "About"
+        },
+        {
+            "location": "/about/#about-the-joker-app",
+            "text": "Written by C French for Year 8.",
+            "title": "About the Joker App"
+        },
+        {
+            "location": "/",
+            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome-to-mkdocs",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "Welcome to MkDocs"
+        },
+        {
+            "location": "/#commands",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Commands"
+        },
+        {
+            "location": "/#project-layout",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "title": "Project layout"
+        },
+        {
+            "location": "/planning/",
+            "text": "Planning\n\n\nBefore you start to code, do a little planning.\n\n\nWhere to save your app\n\n\nIt's best to make a new directory for your app. \nDecide on a name, for example, mypuns.\n\n\nWhat to call it\n\n\nNext, decide what to call your Python script, for example, suzyspuns.\n\n\nRemember, stick to lower case and no spaces! You don't need the .py extension if you are working in Linux.\nJust remember to add the shebang as the first line so that Linux knows that you want to run your file using Python.\n\n\nNow decide on a name for your app. app is convenient; you will find this name used in many examples.\n\n\nPlease make a note of what you decide - paper and pen(cil) or a doc. This will help you avoid confusion.\n\n\nWhen you have finished, move to the section entitled Getting Started.",
+            "title": "Planning"
+        },
+        {
+            "location": "/planning/#planning",
+            "text": "Before you start to code, do a little planning.",
+            "title": "Planning"
+        },
+        {
+            "location": "/planning/#where-to-save-your-app",
+            "text": "It's best to make a new directory for your app. \nDecide on a name, for example, mypuns.",
+            "title": "Where to save your app"
+        },
+        {
+            "location": "/planning/#what-to-call-it",
+            "text": "Next, decide what to call your Python script, for example, suzyspuns.  Remember, stick to lower case and no spaces! You don't need the .py extension if you are working in Linux.\nJust remember to add the shebang as the first line so that Linux knows that you want to run your file using Python.  Now decide on a name for your app. app is convenient; you will find this name used in many examples.  Please make a note of what you decide - paper and pen(cil) or a doc. This will help you avoid confusion.  When you have finished, move to the section entitled Getting Started.",
+            "title": "What to call it"
+        },
+        {
+            "location": "/getting_started/",
+            "text": "Getting Started\n\n\nFirst make a directory for your app.\n\n\nTo do this, open a new terminal - Alt, Ctrl - T\n\n\nmkdir mypuns\n\n\n\nNow change into that directory\n\n\ncd mypuns\n\n\n\nIt should be empty. Enter\n\n\nls\n\n\n\nto check.",
+            "title": "Getting Started"
+        },
+        {
+            "location": "/getting_started/#getting-started",
+            "text": "",
+            "title": "Getting Started"
+        },
+        {
+            "location": "/getting_started/#first-make-a-directory-for-your-app",
+            "text": "To do this, open a new terminal - Alt, Ctrl - T  mkdir mypuns  Now change into that directory  cd mypuns  It should be empty. Enter  ls  to check.",
+            "title": "First make a directory for your app."
+        },
+        {
+            "location": "/start_coding/",
+            "text": "Start Coding\n\n\nOpen a Text Editor\n\n\nOpen a text editor to start coding your app. To use the name in the Planning section, enter\n\n\nnano suzyspuns\n\n\n\nto open a text editor (nano) and create the file suzypuns. Just use the name you chose instead of suzypuns.\n\n\nStart Coding in the Text Editor\n\n\nIn nano, enter\n\n\n#!/usr/bin/env python3\nimport random\n\n# Use square brackets to make a list of puns\npuns = [\u2018I\u2019ve been to the dentist so many times, I know the drill\u2019,\n\u2018A chicken crossing the road is poultry in motion\u2019,\n]\n\n\n\nAdd the puns from your notes, keeping each pun on a separate line, with a comma between each pun. \n\n\nIf you have an apostrophe, as in \u201cI\u2019ve\u201d, remember to escape it using a slash, otherwise Python will think you have finished the string.\n\n\nIn the text editor, add a line to make a random choice from the puns list. Assign (give) the name pun to the pun that the program chooses. pun is a variable - just a name for what the program chooses.\n\n\npun = random.choice(puns)\n\n\n\nAdd one last line:\n\n\nprint(pun)\n\n\n\nCheck your file carefully for any typos. \nNow hold down the Ctrl key and tap O to save your file. Ctrl-O is \"Write out\", which means \"Save\".",
+            "title": "Start Coding"
+        },
+        {
+            "location": "/start_coding/#start-coding",
+            "text": "",
+            "title": "Start Coding"
+        },
+        {
+            "location": "/start_coding/#open-a-text-editor",
+            "text": "Open a text editor to start coding your app. To use the name in the Planning section, enter  nano suzyspuns  to open a text editor (nano) and create the file suzypuns. Just use the name you chose instead of suzypuns.",
+            "title": "Open a Text Editor"
+        },
+        {
+            "location": "/start_coding/#start-coding-in-the-text-editor",
+            "text": "In nano, enter  #!/usr/bin/env python3\nimport random\n\n# Use square brackets to make a list of puns\npuns = [\u2018I\u2019ve been to the dentist so many times, I know the drill\u2019,\n\u2018A chicken crossing the road is poultry in motion\u2019,\n]  Add the puns from your notes, keeping each pun on a separate line, with a comma between each pun.   If you have an apostrophe, as in \u201cI\u2019ve\u201d, remember to escape it using a slash, otherwise Python will think you have finished the string.  In the text editor, add a line to make a random choice from the puns list. Assign (give) the name pun to the pun that the program chooses. pun is a variable - just a name for what the program chooses.  pun = random.choice(puns)  Add one last line:  print(pun)  Check your file carefully for any typos. \nNow hold down the Ctrl key and tap O to save your file. Ctrl-O is \"Write out\", which means \"Save\".",
+            "title": "Start Coding in the Text Editor"
+        },
+        {
+            "location": "/first_test/",
+            "text": "First Test\n\n\nIt's good practice to test often. This makes it easier to spot your errors.\n\n\nOpen a new terminal (Shift-Ctrl-T).\nChange into the directory where you are working.\n\n\ncd mypuns\n\n\n\n(or whatever you called your directory).\n\n\nEnter \n\n\nls\n\n\n\nThis will list all the files in your directory. You will see one - suzypuns.\n\n\nThis will appear in white, which means that it is a text file. To make it executable, so that it will run and do something, enter this command:\n\n\nsudo chmod +x suzypuns\n\n\n\nsudo makes you the superuser of the computer. As the superuser, you could give commands that could cause damage. Linux makes you enter your password to make sure that you really want to go ahead.\n\n\nEnter\n\n\nls\n\n\n\nagain. Your file is now green, which means that it is executable.\n\n\nTo run it, enter\n\n\n./suzypuns\n\n\n\nand press Enter. You may see an error message. Read which line has the error and go back and correct it. Use Ctrl-O to save your changes and then run \n\n\n./suzypuns\n\n\n\nagain. You can just use up arrow to replay commands.\n\n\nYou should now see a pun.\n\n\nPress up arrow and Enter several times to make sure that you see puns at random.\n\n\nThat's the first test completed - you can generate random puns.",
+            "title": "First Test"
+        },
+        {
+            "location": "/first_test/#first-test",
+            "text": "It's good practice to test often. This makes it easier to spot your errors.  Open a new terminal (Shift-Ctrl-T).\nChange into the directory where you are working.  cd mypuns  (or whatever you called your directory).  Enter   ls  This will list all the files in your directory. You will see one - suzypuns.  This will appear in white, which means that it is a text file. To make it executable, so that it will run and do something, enter this command:  sudo chmod +x suzypuns  sudo makes you the superuser of the computer. As the superuser, you could give commands that could cause damage. Linux makes you enter your password to make sure that you really want to go ahead.  Enter  ls  again. Your file is now green, which means that it is executable.  To run it, enter  ./suzypuns  and press Enter. You may see an error message. Read which line has the error and go back and correct it. Use Ctrl-O to save your changes and then run   ./suzypuns  again. You can just use up arrow to replay commands.  You should now see a pun.  Press up arrow and Enter several times to make sure that you see puns at random.  That's the first test completed - you can generate random puns.",
+            "title": "First Test"
+        },
+        {
+            "location": "/code_the_app/",
+            "text": "Code the App - 1\n\n\nImport the guizero library\n\n\nTo create an app, begin by importing the guizero module of code. For this app you will need classes (which are templates) to make an app and to produce text and pushbuttons.\n\n\nAbove the line where you imported the random module, enter\n\n\nfrom guizero import App, Text, PushButton\n\n\n\nAs these are classes, they begin with upper case letters.\n\n\nBelow the list of puns, delete the line that choose a pun at random and display it on screen.\n\n\nCreate a function to get a pun and display it\n\n\nIn their place, create a function to get a pun from the list. This function will set the text in a text box to show the pun. The function will be called when the user clicks on the button you will be adding.\n\n\ndef get_pun():\n    pun = random.choice(puns)\n    text2.value = pun\n\n\n\nQuick Test\n\n\nCtrl-O to save your code.\nIn a new terminal, enter \n\n\n./suzypuns\n\n\n\nIf you see any error messages, go back and make corrections.\nIf nothing appears on screen, that's great: continue to the next section.",
+            "title": "Code the App - 1"
+        },
+        {
+            "location": "/code_the_app/#code-the-app-1",
+            "text": "",
+            "title": "Code the App - 1"
+        },
+        {
+            "location": "/code_the_app/#import-the-guizero-library",
+            "text": "To create an app, begin by importing the guizero module of code. For this app you will need classes (which are templates) to make an app and to produce text and pushbuttons.  Above the line where you imported the random module, enter  from guizero import App, Text, PushButton  As these are classes, they begin with upper case letters.  Below the list of puns, delete the line that choose a pun at random and display it on screen.",
+            "title": "Import the guizero library"
+        },
+        {
+            "location": "/code_the_app/#create-a-function-to-get-a-pun-and-display-it",
+            "text": "In their place, create a function to get a pun from the list. This function will set the text in a text box to show the pun. The function will be called when the user clicks on the button you will be adding.  def get_pun():\n    pun = random.choice(puns)\n    text2.value = pun",
+            "title": "Create a function to get a pun and display it"
+        },
+        {
+            "location": "/code_the_app/#quick-test",
+            "text": "Ctrl-O to save your code.\nIn a new terminal, enter   ./suzypuns  If you see any error messages, go back and make corrections.\nIf nothing appears on screen, that's great: continue to the next section.",
+            "title": "Quick Test"
+        },
+        {
+            "location": "/code_the_app-2/",
+            "text": "Code the App - 2\n\n\nBelow the function, enter a line to create an instance of the App class. In the planning section, you may have decided to call this \napp\n.\n\n\napp = App('My Pun Generator')\n\n\n\nYou could think of a class as a template. All apps have some features in common, such as text and buttons, because they are all created from the App class.\n\n\nNow create a button instance from the PushButton class to call the \nget_pun\n function. The first parameter in the brackets sets the button's master to \napp\n: it belongs to \napp\n.\n\n\nbutton1 = PushButton(app, get_pun, text='Show me a random pun')\nbutton1.text_color = 'red'\nbutton1.bg = 'blue'\n\n\n\nCan you work out what the last two lines do? You can choose your own colours if you wish.\n\n\nNow add a line to tell users that they are about to see a terrible pun:\n\n\ntext1 = Text(app, text='Watch out for a terrible pun!')\n\n\n\nNow add another text widget which starts with no text. When the function \nget_pun\n is called, it sets the text of this widget to the text of the pun.\n\n\ntext2 = Text(app, text='')\n\n\n\nNote that this line has two single quotes, not a double quote.\n\n\nFinally, a line to call the display method on app to display it on screen.\n\n\napp.display()",
+            "title": "Code the App - 2"
+        },
+        {
+            "location": "/code_the_app-2/#code-the-app-2",
+            "text": "Below the function, enter a line to create an instance of the App class. In the planning section, you may have decided to call this  app .  app = App('My Pun Generator')  You could think of a class as a template. All apps have some features in common, such as text and buttons, because they are all created from the App class.  Now create a button instance from the PushButton class to call the  get_pun  function. The first parameter in the brackets sets the button's master to  app : it belongs to  app .  button1 = PushButton(app, get_pun, text='Show me a random pun')\nbutton1.text_color = 'red'\nbutton1.bg = 'blue'  Can you work out what the last two lines do? You can choose your own colours if you wish.  Now add a line to tell users that they are about to see a terrible pun:  text1 = Text(app, text='Watch out for a terrible pun!')  Now add another text widget which starts with no text. When the function  get_pun  is called, it sets the text of this widget to the text of the pun.  text2 = Text(app, text='')  Note that this line has two single quotes, not a double quote.  Finally, a line to call the display method on app to display it on screen.  app.display()",
+            "title": "Code the App - 2"
+        },
+        {
+            "location": "/test_the_app/",
+            "text": "Test the App\n\n\nIn a second terminal, make sure you are in the directory where you saved your app.\n\n\nTest it by running\n\n\n./suzypuns\n\n\n\nor whatever you called your app.\n\n\nClick on the button several times to check that it does show puns at random.",
+            "title": "Test the App"
+        },
+        {
+            "location": "/test_the_app/#test-the-app",
+            "text": "In a second terminal, make sure you are in the directory where you saved your app.  Test it by running  ./suzypuns  or whatever you called your app.  Click on the button several times to check that it does show puns at random.",
+            "title": "Test the App"
+        },
+        {
+            "location": "/tidy/",
+            "text": "Tidy Your Code\n\n\nThere are Rules - or at least Conventions\n\n\nJust as there are rules for writing good English, so there are rules that most developers follow for writing good Python.\n\n\nThey are set out in a document called PEP8.\n\n\nCheck Your Code\n\n\nYou can use a type of program called a pylinter to check your code. One example is flake8.\n\n\nIn your directory, enter\n\n\nflake8 suzypuns\n\n\n\nor whatever you called your file.\n\n\nYou will see comments on where your code does not follow the best practices in Python. Try to correct your code and keep running \n\n\nflake8 suzypuns\n\n\n\nuntil you see no output when you run this command.\n\n\nError when trying to run flake8\n\n\nIf you have not got flake8 installed, go to a terminal (Alt-Ctrl-T) and enter \n\n\nsudo apt-get update\nsudo apt-get install flake8\n\n\n\nYou will then see flake8 installed. sudo makes you the superuser, like the administrator in Windows.",
+            "title": "Tidy your code"
+        },
+        {
+            "location": "/tidy/#tidy-your-code",
+            "text": "",
+            "title": "Tidy Your Code"
+        },
+        {
+            "location": "/tidy/#there-are-rules-or-at-least-conventions",
+            "text": "Just as there are rules for writing good English, so there are rules that most developers follow for writing good Python.  They are set out in a document called PEP8.",
+            "title": "There are Rules - or at least Conventions"
+        },
+        {
+            "location": "/tidy/#check-your-code",
+            "text": "You can use a type of program called a pylinter to check your code. One example is flake8.  In your directory, enter  flake8 suzypuns  or whatever you called your file.  You will see comments on where your code does not follow the best practices in Python. Try to correct your code and keep running   flake8 suzypuns  until you see no output when you run this command.",
+            "title": "Check Your Code"
+        },
+        {
+            "location": "/tidy/#error-when-trying-to-run-flake8",
+            "text": "If you have not got flake8 installed, go to a terminal (Alt-Ctrl-T) and enter   sudo apt-get update\nsudo apt-get install flake8  You will then see flake8 installed. sudo makes you the superuser, like the administrator in Windows.",
+            "title": "Error when trying to run flake8"
+        }
+    ]
+}

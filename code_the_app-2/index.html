@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Code the App - 2 - Pun Generator</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Code the App - 2";
+    var mkdocs_page_input_path = "code_the_app-2.md";
+    var mkdocs_page_url = "/code_the_app-2/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../about/" class="icon icon-home"> Pun Generator</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../about/">About</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../planning/">Planning</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../getting_started/">Getting Started</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../start_coding/">Start Coding</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../first_test/">First Test</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../code_the_app/">Code the App - 1</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Code the App - 2</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#code-the-app-2">Code the App - 2</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../test_the_app/">Test the App</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../tidy/">Tidy your code</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../about/">Pun Generator</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../about/">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Code the App - 2</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="code-the-app-2">Code the App - 2</h1>
+<p>Below the function, enter a line to create an instance of the App class. In the planning section, you may have decided to call this <strong>app</strong>.</p>
+<pre><code>app = App('My Pun Generator')
+</code></pre>
+<p>You could think of a class as a template. All apps have some features in common, such as text and buttons, because they are all created from the App class.</p>
+<p>Now create a button instance from the PushButton class to call the <strong>get_pun</strong> function. The first parameter in the brackets sets the button's master to <strong>app</strong>: it belongs to <strong>app</strong>.</p>
+<pre><code>button1 = PushButton(app, get_pun, text='Show me a random pun')
+button1.text_color = 'red'
+button1.bg = 'blue'
+</code></pre>
+<p>Can you work out what the last two lines do? You can choose your own colours if you wish.</p>
+<p>Now add a line to tell users that they are about to see a terrible pun:</p>
+<pre><code>text1 = Text(app, text='Watch out for a terrible pun!')
+</code></pre>
+<p>Now add another text widget which starts with no text. When the function <strong>get_pun</strong> is called, it sets the text of this widget to the text of the pun.</p>
+<pre><code>text2 = Text(app, text='')
+</code></pre>
+<p>Note that this line has two single quotes, not a double quote.</p>
+<p>Finally, a line to call the display method on app to display it on screen.</p>
+<pre><code>app.display()
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../test_the_app/" class="btn btn-neutral float-right" title="Test the App">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../code_the_app/" class="btn btn-neutral" title="Code the App - 1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../code_the_app/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../test_the_app/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/require.js"></script>
+      <script src="../search/search.js"></script>
+
+</body>
+</html>
